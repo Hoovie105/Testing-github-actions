@@ -24,4 +24,4 @@ def test_exact_match():
     gas = [2, 2, 2]
     cost = [1, 2, 3]
     solution = Solution()
-    assert solution.canCompleteCircuit(gas, cost) == 2
+    assert solution.canCompleteCircuit(gas, cost) == 0
