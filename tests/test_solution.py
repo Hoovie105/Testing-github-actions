@@ -1,3 +1,5 @@
+import sys, os
+sys.path.append(os.path.dirname(os.path.dirname(__file__)))
 from app import Solution
 
 def test_can_complete_circuit_basic():
